@@ -1,5 +1,5 @@
 ---
-title: Pebble
+title: 'Pebble: Progress Tracker for iPhone'
 description: Track the little things that add up. Pebble is an illustrated progress tracker with one free activity and an optional one-time Pro unlock.
 permalink: /
 ---

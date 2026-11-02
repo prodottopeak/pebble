@@ -6,9 +6,17 @@
   <meta name="color-scheme" content="light">
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
-  <title>{{ page.title | escape }}{% unless page.title == site.title %} · {{ site.title | escape }}{% endunless %}</title>
+  <title>{{ page.title | escape }}</title>
   <meta name="description" content="{{ page.description | default: site.description | escape }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Pebble">
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/pebble.png' | absolute_url }}">
+  <meta property="og:image:alt" content="Pebble’s navy character with its yellow companion stone">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" type="image/png" href="{{ '/assets/pebble.png' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
