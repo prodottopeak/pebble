@@ -1,0 +1,12 @@
+title: Pebble
+description: A little progress, made visible. An illustrated activity and progress tracker for iPhone.
+url: https://prodottopeak.github.io
+baseurl: /pebble
+markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
