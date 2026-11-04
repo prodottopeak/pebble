@@ -1,9 +1,39 @@
----
-layout: null
----
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>{{ '/' | absolute_url }}</loc></url>
-  <url><loc>{{ '/support/' | absolute_url }}</loc></url>
-  <url><loc>{{ '/privacy/' | absolute_url }}</loc></url>
+  <url>
+    <loc>https://prodottopeak.github.io/pebble/</loc>
+  </url>
+  <url>
+    <loc>https://prodottopeak.github.io/pebble/fr/</loc>
+  </url>
+  <url>
+    <loc>https://prodottopeak.github.io/pebble/de/</loc>
+  </url>
+  <url>
+    <loc>https://prodottopeak.github.io/pebble/es/</loc>
+  </url>
+  <url>
+    <loc>https://prodottopeak.github.io/pebble/ja/</loc>
+  </url>
+  <url>
+    <loc>https://prodottopeak.github.io/pebble/it/</loc>
+  </url>
+  <url>
+    <loc>https://prodottopeak.github.io/pebble/ko/</loc>
+  </url>
+  <url>
+    <loc>https://prodottopeak.github.io/pebble/pt-pt/</loc>
+  </url>
+  <url>
+    <loc>https://prodottopeak.github.io/pebble/pt-br/</loc>
+  </url>
+  <url>
+    <loc>https://prodottopeak.github.io/pebble/zh-hant/</loc>
+  </url>
+  <url>
+    <loc>https://prodottopeak.github.io/pebble/support/</loc>
+  </url>
+  <url>
+    <loc>https://prodottopeak.github.io/pebble/privacy/</loc>
+  </url>
 </urlset>

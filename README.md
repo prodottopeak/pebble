@@ -1,23 +1,27 @@
-# Pebble launch website
+# Progress Pebble marketing website
 
-Public website content only. Native iOS source remains in the private pebble-ios repository.
+The public website for Progress Pebble, an illustrated habit tracker for iPhone and iPad. GitHub Pages publishes `main` at https://prodottopeak.github.io/pebble/. The native app repository remains separate and private.
 
-GitHub Pages publishes main / (Jekyll). No JavaScript, analytics, external font requests, package install, or custom domain required.
+## Pages and assets
 
-- Home: https://prodottopeak.github.io/pebble/
-- Support: https://prodottopeak.github.io/pebble/support/
-- Privacy: https://prodottopeak.github.io/pebble/privacy/
+English is at the root. French, German, Spanish (Spain), Italian, Japanese, Korean, Portuguese (Portugal), Portuguese (Brazil), and Traditional Chinese have dedicated pages at `fr/`, `de/`, `es/`, `it/`, `ja/`, `ko/`, `pt-pt/`, `pt-br/`, and `zh-hant/`. Each page uses matching approved screenshots, a localized thirty-second preview, and a 1200 × 630 share image. Artwork, fonts and videos are self-hosted. The Plus Jakarta Sans licence is in `assets/fonts/OFL.txt`.
 
-Content follows the existing Beeper and PhoneAware three-page structure. The layout uses Pebble’s approved warm-white, navy, aqua family and existing icon.
+The marketing pages are complete static HTML and work without executable JavaScript. The JSON-LD script blocks contain structured data only, with matching Content Security Policy hashes. Native HTML supplies the language menu, video controls and expandable questions. Videos do not autoplay or preload; screenshots below the first section load lazily. There are no analytics scripts, forms, advertising or tracking cookies.
 
-After the App Store listing is public, replace the prelaunch note on index.md with the verified App Store link. Keep price and feature claims aligned with the actual app.
+Support and privacy retain their existing Jekyll Markdown content and URLs. Keep Jekyll enabled; do not add `.nojekyll`. Legal-page navigation uses the same current brand and retains readable phone wrapping.
 
-## Search visibility
+## Launch state
 
-The pages have descriptive titles, individual descriptions, canonical URLs, semantic headings and share-preview metadata. sitemap.xml lists the three public canonical pages. Keep that list current if adding or removing a page. No fake ratings, keyword lists, tracking scripts or guaranteed ranking claims.
+The public App Store URL returned 404 and the US lookup returned zero results when checked on 4 November 2026. The page therefore says the app is coming to the App Store and invites visitors to watch the preview. It does not send people to a dead download URL or present a nonfunctional waiting list. When the listing is public, verify the actual App Store destination, add the appropriate download action to all ten pages, and keep free/paid boundaries and availability consistent with the released app. Do not change price claims based on historical drafts. One active activity is free; Pro is a one-time purchase without a subscription. Weekly and monthly goals require Pro.
 
-In Google Search Console, add a URL-prefix property for https://prodottopeak.github.io/pebble/ and verify ownership using Google's HTML file or tag. Submit https://prodottopeak.github.io/pebble/sitemap.xml. Inspect the home URL and request indexing, then monitor indexing status and actual search impressions. Search Console setup does not require adding visitor analytics.
+## Search and sharing
 
-Do not place robots.txt in this repository's /pebble/ subdirectory: crawlers look for it at the host root. The host-root robots.txt currently returns 404, which does not block crawling.
+Each localized page has one H1, a category-focused title and description, a self-canonical URL, reciprocal `hreflang` links including itself and the English `x-default`, Open Graph and large-card metadata, and MobileApplication structured data. `sitemap.xml` contains the ten marketing URLs and existing support/privacy URLs. Update the sitemap and reciprocal language links together when adding a locale. Do not redirect people automatically by IP or browser language.
 
-Use the public studio Git identity and GitHub no-reply email for website commits. Do not copy personal Git metadata, credentials, records or private app source into this repository.
+There are no invented ratings or reviews, public pricing, download counts, or guaranteed ranking claims. The app markup describes the product; it does not establish eligibility for a Google software-app rich result, which requires additional genuine offer/review information. The FAQ is useful page content, not a promise of FAQ rich results. Do not add a meta-keyword list.
+
+Search Console: verify the URL-prefix property `https://prodottopeak.github.io/pebble/`, submit `https://prodottopeak.github.io/pebble/sitemap.xml`, inspect the published home and language URLs, and monitor indexing and actual query impressions over time. No Search Console verification or indexing has been claimed. A robots.txt in this repository would live below `/pebble/`; crawlers require it at the host root, so do not add an ineffective project-level file.
+
+## Maintenance
+
+Use the public studio Git author identity and GitHub no-reply email. Publish only website files, approved artwork and marketing media. Do not copy credentials, internal evidence, app source, private records or personal Git metadata into this public repository. Keep support/privacy content unchanged unless a separate product or policy change requires an update. Translations have source alignment and rendered QA; independent native-speaker review remains separate.
