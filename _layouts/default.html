@@ -22,8 +22,8 @@
 </head>
 <body>
   <a class="skip" href="#content">Skip to content</a>
-  <header>
-    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Progress Pebble home"><img src="{{ '/assets/pebble.png' | relative_url }}" width="40" height="40" alt="">Progress Pebble</a>
+  <header><div class="brand-group"><a class="studio-home" href="/"><img src="/assets/favicon.svg" width="24" height="24" alt="">Prodotto Peak</a>
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Progress Pebble home"><img src="{{ '/assets/pebble.png' | relative_url }}" width="40" height="40" alt="">Progress Pebble</a></div>
     <nav aria-label="Main navigation">
       <a href="{{ '/support/' | relative_url }}"{% if page.url == '/support/' %} aria-current="page"{% endif %}>Support</a>
       <a href="{{ '/privacy/' | relative_url }}"{% if page.url == '/privacy/' %} aria-current="page"{% endif %}>Privacy</a>
@@ -32,7 +32,7 @@
   <main id="content" tabindex="-1">{{ content }}</main>
   <footer>
     <span>Progress Pebble by Prodotto Peak</span>
-    <a href="mailto:prodottopeak@gmail.com">Contact</a>
+    <a href="https://apps.apple.com/app/id6826699210">Download on the App Store</a><a href="mailto:prodottopeak@gmail.com">Contact</a>
   </footer>
 </body>
 </html>
