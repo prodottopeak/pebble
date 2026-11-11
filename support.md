@@ -5,7 +5,7 @@ permalink: /support/
 ---
 # Pebble Support
 
-Need a hand? Email [prodottopeak@gmail.com](mailto:prodottopeak@gmail.com).
+Need a hand? Email [hello@prodottopeak.com](mailto:hello@prodottopeak.com).
 
 Include your device model, iOS version, Pebble version, and a short description of what happened. A screenshot can help; please leave out personal notes and other sensitive information.
 

@@ -7,7 +7,7 @@ permalink: /privacy/
 
 Last updated: November 2, 2026
 
-Pebble is an activity and progress tracker provided by Prodotto Peak. For privacy questions, contact [prodottopeak@gmail.com](mailto:prodottopeak@gmail.com).
+Pebble is an activity and progress tracker provided by Prodotto Peak. For privacy questions, contact [hello@prodottopeak.com](mailto:hello@prodottopeak.com).
 
 ## At a glance
 
